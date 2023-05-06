@@ -301,12 +301,20 @@ export default defineComponent({
   .main-url-content {
     margin-top: 15px;
   }
+
+  .main-url-link__link {
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 428px) {
   .main-url-form {
     margin-top: 13px;
     width: 390px;
+  }
+
+  .main-url-link__link {
+    font-size: 14px;
   }
 }
 
@@ -348,6 +356,10 @@ export default defineComponent({
     height: 45px;
     font-size: 14px;
   }
+
+  .main-url-link__link {
+    font-size: 13px;
+  }
 }
 
 @media (max-width: 320px) {
@@ -374,6 +386,10 @@ export default defineComponent({
 
   .main-url-form__btn>button {
     font-size: 13px;
+  }
+
+  .main-url-link__link {
+    font-size: 12px;
   }
 }
 </style>
